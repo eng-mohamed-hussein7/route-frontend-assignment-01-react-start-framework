@@ -11,6 +11,9 @@
 .bg-main {
   background-color: #1abc9c !important;
 }
+.active {
+  width: fit-content;
+}
 .line {
   height: 4px;
   width: 80px;

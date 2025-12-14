@@ -11,7 +11,7 @@ export default function Navbar() {
           Start Framework
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -19,7 +19,7 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <i className="fa-solid fa-bars text-white fs-3"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -33,7 +33,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                className="nav-link text-white text-uppercase fw-bold mt-3 mt-md-0 px-2 mx-3 rounded-3"
+                className="nav-link text-white text-uppercase fw-bold mt-3 mt-md-0 px-2 mx-ls-3 rounded-3"
                 to="/portfolio"
               >
                 portfolio
