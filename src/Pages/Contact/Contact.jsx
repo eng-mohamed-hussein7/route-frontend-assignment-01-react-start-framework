@@ -13,7 +13,7 @@ export default function Contact() {
       <Navbar />
       <section
         id="contact"
-        className="vh-100 d-flex flex-wrap flex-column justify-content-center align-items-center"
+        className="vh-100 d-flex flex-wrap flex-column justify-content-center align-items-center py-5"
       >
         <div className="container">
           <SectionHeader data={"contact section"} />

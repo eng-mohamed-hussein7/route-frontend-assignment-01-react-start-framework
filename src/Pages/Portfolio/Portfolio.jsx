@@ -15,9 +15,9 @@ export default function Portfolio() {
       <Navbar />
       <section
         id="portfolio"
-        className="vh-100 d-flex flex-wrap flex-column justify-content-center align-items-center"
+        className="min-vh-100  d-flex flex-wrap flex-column justify-content-center align-items-center py-5"
       >
-        <div className="container">
+        <div className="container pt-md-5">
           <SectionHeader data={"portfolio component"} />
           <div className="row g-4">
             <div className="col-lg-4 col-md-6">
