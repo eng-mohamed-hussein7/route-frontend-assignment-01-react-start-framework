@@ -17,7 +17,7 @@ export default function Portfolio() {
         id="portfolio"
         className="min-vh-100  d-flex flex-wrap flex-column justify-content-center align-items-center py-5"
       >
-        <div className="container pt-md-5">
+        <div className="container pt-5">
           <SectionHeader data={"portfolio component"} />
           <div className="row g-4">
             <div className="col-lg-4 col-md-6">
