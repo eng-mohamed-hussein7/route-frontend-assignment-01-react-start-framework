@@ -1,16 +1,61 @@
-# React + Vite
+# ⚛️ React Start Framework — Assignment 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React single-page application** built as the **first React assignment** in the Route Academy Front-End track.  
+The project is based on a **component-based structure** with page navigation handled using **React Router**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🧩 Fully **component-based architecture**
+- 🔀 Page navigation using **React Router**
+- 🎨 Styling with **Bootstrap**
+- ⚛️ JSX syntax for UI structure
+- 🧠 State management using **useState**
+- 🔄 Side effects handled with **useEffect**
+- 📝 Handling **uncontrolled inputs**
+- 📱 Responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **React Router DOM**
+- **Bootstrap**
+- **JavaScript (JSX)**
+- **HTML5**
+- **CSS3**
+
+---
+
+## 💡 What I Learned
+
+- How to structure a React app using **components**
+- Implementing client-side routing with **React Router**
+- Using **useState** to manage component state
+- Using **useEffect** for side effects (e.g. updating page title)
+- Handling **uncontrolled form inputs**
+- Writing clean and readable **JSX**
+
+---
+
+## 🎨 Live Demo
+
+🔗 **Open Live Demo**  
+[start framework](https://route-frontend-assignment-01-react.vercel.app/)
+
+---
+
+## 🧰 Installation
+
+```bash
+git clone https://github.com/eng-mohamed-hussein7/route-frontend-assignment-01-react-start-framework.git
+cd route-frontend-assignment-01-react-start-framework
+npm install
+npm run dev
+
+---
+
+## 🧑‍💻 Built as part of the  
+**Route Academy — React FrameWork**
