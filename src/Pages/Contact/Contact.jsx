@@ -13,9 +13,9 @@ export default function Contact() {
       <Navbar />
       <section
         id="contact"
-        className="vh-100 d-flex flex-wrap flex-column justify-content-center align-items-center py-5"
+        className="min-vh-100 d-flex flex-wrap flex-column justify-content-center align-items-center py-5"
       >
-        <div className="container">
+        <div className="container pt-5">
           <SectionHeader data={"contact section"} />
           <ContactForm />
         </div>

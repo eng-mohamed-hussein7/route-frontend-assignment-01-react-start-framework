@@ -8,7 +8,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <form noValidate action="" className="w-50 p-3 mx-auto mt-5">
+      <form action="" className="w-50 p-3 mx-lg-auto mt-5">
         <label
           htmlFor="userName"
           className={`position-relative ${userName ? "top-0" : "top-40"}`}
