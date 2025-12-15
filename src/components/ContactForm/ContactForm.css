@@ -1,0 +1,11 @@
+input.form-control:focus {
+  box-shadow: none;
+}
+label {
+  color: #1abc9ce6;
+  margin-bottom: 7px;
+  transition: 0.6s top;
+}
+.top-40 {
+  top: 40px !important;
+}

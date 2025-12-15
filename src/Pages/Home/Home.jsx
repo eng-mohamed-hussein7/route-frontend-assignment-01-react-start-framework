@@ -1,3 +1,4 @@
+import "./Home.css";
 import Line from "../../components/Line/Line";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -13,7 +14,7 @@ export default function Home() {
       <Navbar />
       <header className="hero">
         <div className="bg-main vh-100 d-flex flex-wrap flex-column justify-content-center align-items-center text-white">
-          <div className="avater">
+          <div className="avater mb-3">
             <img
               src={avatar}
               alt="avater "
@@ -21,7 +22,7 @@ export default function Home() {
             />
           </div>
           <div className="text-center">
-            <h1 className="text-uppercase">Start Framework</h1>
+            <h1 className="text-uppercase pt-4">Start Framework</h1>
             <Line />
             <p>Graphic Artist - Web Designer - Illustrator</p>
           </div>

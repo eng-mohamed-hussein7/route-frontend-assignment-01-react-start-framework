@@ -1,3 +1,4 @@
+import "./Navbar.css";
 import { Link, NavLink } from "react-router";
 
 export default function Navbar() {
